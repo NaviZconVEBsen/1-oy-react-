@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.App {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+li {
+    color: black;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 48px;
+}
+
+i {
+    color: rgb(9, 7, 7);
+}
+
+.tepa {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+input {
+    width: 243px;
+    height: 38px;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+}
+
+.mini {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 223px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    font-family:"Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card{
+    width: 270px;
+    background-color: gray;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
